@@ -366,7 +366,7 @@ TODO(erights): write
 let x, y;
 
 if (LANG`${&x} + ${&y)}`.test(ast)) {
-  return LANG`${&x} * ${&y}`;
+  return LANG`${&x} * ${&y}`.value();
 }
 ```
 
